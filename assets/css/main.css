@@ -106,10 +106,10 @@
 			opacity: 0;
 			z-index: 1;
 			background-color: #ffffff;
-			background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(142,158,171, 0.5) 5%, rgba(238,242,243, 0.35));
-			background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(142,158,171, 0.5) 5%, rgba(238,242,243, 0.35));
-			background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(142,158,171, 0.5) 5%, rgba(238,242,243, 0.35));
-			background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(142,158,171, 0.5) 5%, rgba(238,242,243, 0.35));
+			background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(142, 158, 171, 0.5) 5%, rgba(238, 242, 243, 0.35));
+			background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(142, 158, 171, 0.5) 5%, rgba(238, 242, 243, 0.35));
+			background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(142, 158, 171, 0.5) 5%, rgba(238, 242, 243, 0.35));
+			background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(142, 158, 171, 0.5) 5%, rgba(238, 242, 243, 0.35));
 			background-repeat: repeat,			no-repeat;
 			background-size: 100px 100px, cover;
 			background-position: top left,		center center;
@@ -196,13 +196,13 @@
 		}
 
 	h1 {
-		font-size: 1.85em;
-		letter-spacing: 0.22em;
+		font-size: 1.75em;
+		letter-spacing: 0.1em;
 		margin: 0 0 0.525em 0;
 	}
 
 	h2 {
-		font-size: 1.25em;
+		font-size: 1.2em;
 	}
 
 	h3 {
@@ -781,7 +781,7 @@
 		align-self: flex-end;
 		width: 100%;
 		padding: 1.5em 0 0 0;
-		color: rgba(255, 255, 255, 0.75);
+		color: rgba(255, 255, 255, 1.0);
 		cursor: default;
 		text-align: center;
 	}
@@ -789,7 +789,7 @@
 		#footer .copyright {
 			margin: 0;
 			padding: 0;
-			font-size: 0.9em;
+			font-size: 1em;
 			list-style: none;
 		}
 
