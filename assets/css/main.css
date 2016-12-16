@@ -190,18 +190,22 @@
 		margin: 0 0 0.75em 0;
 	}
 
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
-			text-decoration: none;
-		}
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+		color: inherit;
+		text-decoration: none;
+	}
 
 	h1 {
-		font-size: 1.75em;
+		font-size: 1.95em;
 		letter-spacing: 0.1em;
 		margin: 0 0 0.525em 0;
 	}
 
 	h2 {
+		font-size: 1.5em;
+	}
+
+	a.project {
 		font-size: 1.2em;
 	}
 
@@ -704,7 +708,7 @@
 		position: relative;
 		max-width: 100%;
 		min-width: 27em;
-		padding: 4.5em 3em 3em 3em ;
+		padding: 4.5em 3em 1.5em 3em ;
 		background: #ffffff;
 		border-radius: 4px;
 		cursor: default;
@@ -743,10 +747,10 @@
 				position: absolute;
 				top: 50%;
 				left: -3em;
-				width: calc(100% + 6em);
-				height: 1px;
 				z-index: -1;
-				background: #c8cccf;
+				/*width: calc(100% + 6em);
+				height: 1px;
+				background: #c8cccf;*/
 			}
 
 		@media screen and (max-width: 480px) {
